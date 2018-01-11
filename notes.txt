@@ -1,0 +1,25 @@
+1. Status Review = send email to jobseeker.
+2. Popop message to Review status
+    - Would you like to add message?
+3. Job Seeker can see the job progress and messages.
+4. For interview,
+    time and date:
+
+    type of interview
+      Personal Interview
+        Company Address predefined
+      Phone Interview
+        Phone number
+      Video Call
+        Google hangouts
+        Skype
+
+    Message
+
+    ----
+    send notification email,
+    to jobseeker
+    question: Yes or No
+    email notication for the schedule of interview
+
+5.

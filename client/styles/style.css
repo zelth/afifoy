@@ -1,0 +1,246 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.container { width: 80%;}
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.job-badge {
+  position: static !important;
+  padding: 4px 10px 3px 10px !important;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+}
+
+.margin-0 {
+  margin: 0px;
+}
+
+.job-post h2 {
+  font-size: 1.35rem
+}
+
+.navPanel {
+  min-height: 500px !important;
+}
+
+.contentPanel {
+  min-height: 500px !important;
+}
+
+input[type=text]:focus {
+  box-shadow: none !important;
+}
+
+.fr-sticky{
+  position: static;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.clear-form > div:first-child {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  margin-top: 0px !important;
+}
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.section{
+  background-size: cover;
+}
+
+#section1{
+  background-image: url(../images/fullpage.jpg);
+  padding: 0 30px;
+}
+
+.navlinks {
+  margin-left: 200px;
+}
+
+
+.btn {
+  font-size: 10px !important;
+  padding: 0 15px !important;
+  background-color: #138da8 !important;
+  margin: 15px 50px 0 0;
+  font-size: 12px;
+  text-transform: none !important;
+}
+
+.middle-wrapper {
+  margin: 150px 0 0 70px;
+}
+
+.middle-wrapper .toptext {
+  color: #fff;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.middle-wrapper span {
+  font-size: 12px;
+}
+
+.middle-wrapper .belowtext {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.middle-wrapper span {
+  color: #fff;
+}
+
+hr {
+  width: 230px;
+  display: block;
+    border: 0;
+    border-top: 3px solid #138da8;
+    margin: .3em 0;
+    padding: 0;
+}
+
+.form-wrapper {
+  margin-top: 10px;
+}
+
+form {
+  display: inline-flex;
+}
+
+.input-field {
+  height: 46px !important;
+  width: 500px;
+  border: none !important;
+  padding: 0 0 0 10px;
+}
+
+.input-field .location::placeholder,
+.input-field .jobs::placeholder {
+  font-size: 12px;
+  color: #505254;
+}
+
+.input-field .location {
+  width: 100px !important;
+  padding-left: 10px !important;
+  border-left: 1px solid #e7e7e7 !important;
+}
+
+.search-btn {
+  background-color: #138da8;
+  border: none;
+  padding-left: 18px;
+}
+
+
+.footer {
+  position: absolute;
+    right: 0;
+  bottom: 0;
+    left: 0;
+    padding: 10px 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer ul li img {
+  width: auto;
+  height: 40px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right:60px;
+}
+
+.sign-wrapper {
+  background-color: #138da8;
+  width: 370px;
+  position: absolute;
+    right: 0;
+  bottom: 0;
+  margin: 0 40px 35px 0;
+  padding: 10px 10px 15px 35px;
+  color: #fff;
+}
+
+.sign-wrapper .btn {
+  padding: 5px 5px;
+  margin-right: 20px;
+  background-color: #fff !important;
+  color: #138da8;
+  width: 100px;
+  font-size: 15px !important;
+  font-weight: 600;
+  float: right;
+}
+
+.sign-wrapper p {
+  font-size: 11px;
+  width: 270px;
+}
+
+
